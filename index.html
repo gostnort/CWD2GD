@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWD to GD Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-area">
+            <h2>CWD Input</h2>
+            <textarea id="cwdInput" placeholder="Paste CWD content here..."></textarea>
+        </div>
+        <div class="output-area">
+            <h2>GD Output</h2>
+            <textarea id="gdOutput" placeholder="Converted GD content will appear here..." readonly></textarea>
+            <div class="params-container">
+                <div class="params-fields">
+                    <div class="param-group">
+                        <label for="totalCrew">Total Crew:</label>
+                        <input type="number" id="totalCrew" min="0" readonly>
+                    </div>
+                    <div class="param-group">
+                        <label for="flightDeckCrew">Flight Deck:</label>
+                        <input type="number" id="flightDeckCrew" value="4" min="0">
+                    </div>
+                    <div class="param-group">
+                        <label for="stwCount">Stewards:</label>
+                        <input type="number" id="stwCount" min="0">
+                    </div>
+                    <div class="param-group">
+                        <label for="aircraftType">Aircraft Type:</label>
+                        <input type="text" id="aircraftType" value="B____" placeholder="e.g. B777">
+                    </div>
+                </div>
+                <div class="buttons-row">
+                    <button id="convertBtn">Convert</button>
+                    <button id="copyBtn">Copy to Clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
