@@ -1,0 +1,50 @@
+# Jupiter visualization tool .gitignore
+
+# Jupyter notebook files
+.ipynb_checkpoints/
+*.ipynb
+
+# Jupiter visualization output directories
+.jupiter/
+jupiter_output/
+function_graphs/
+
+# Node.js dependencies if using Jupiter JS analyzer
+node_modules/
+package-lock.json
+
+# Generated visualization files
+*.png
+*.svg
+*.dot
+*.pdf
+*.html
+!index.html
+
+# Temporary files
+.tmp/
+.temp/
+.cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/ 
+venv/

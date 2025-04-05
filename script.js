@@ -239,10 +239,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 const nameStartIndex = line.indexOf('.') + 1;
                 
                 // Extract name part (exactly 28 chars) - can include slashes
-                const namePart = line.substring(nameStartIndex, nameStartIndex + 28).trim();
+                const namePart = line.substring(nameStartIndex, nameStartIndex + 29).trim();
                 
                 // Get rest of the line after the name part
-                const rest = line.substring(nameStartIndex + 28).trim().split(/\s+/);
+                const rest = line.substring(nameStartIndex + 29).trim().split(/\s+/);
                 
                 if (rest.length < 5) continue; // Skip invalid lines
                 

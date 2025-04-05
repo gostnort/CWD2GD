@@ -14,24 +14,6 @@ A simple web application to convert Crew Data (CWD) format to General Declaratio
 8. The converted GD format will appear in the right text area
 9. Click "Copy to Clipboard" to copy the converted text
 
-## Features
-
-- Simple and clean interface
-- Automatic detection of total crew count directly from CWD content
-- Intelligent date parsing for both birth dates and expiration dates
-- Improved name parsing to properly handle names with spaces and slashes
-- Linked crew number inputs that maintain the correct total
-- Automatically handles Deadhead Crew (DHC) assignment
-- Customizable aircraft type
-- Precisely formatted name fields (exactly 28 characters with proper spacing)
-- Required empty line at the beginning of GD output format
-- Clipboard integration for easy copying
-- Responsive design with optimized layouts for:
-  - Desktop screens (1280px+)
-  - Medium screens (768px-1279px)
-  - Mobile devices (below 768px)
-  - Very small screens (below 480px)
-
 ## How It Works
 
 ### Crew Count Detection and Distribution
